@@ -1,0 +1,58 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+header
+{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(vár.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.main-nav
+{
+    float: right;
+    list-style: none;
+    margin-top: 10px;
+}
+.main-nav li
+{
+    display: inline-block;
+}
+.main-nav li.active a
+{
+    border: 1px solid white;
+}
+.main-nav li a
+{
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.main-nav li a:hover
+{
+    border: 1px solid white;
+}
+.hero
+{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+    
+    
+}
+h1
+{
+    color: white;
+    font-family: sans-serif;
+    font-size: 70px;
+    text-align: center;
+    
+    
+}
